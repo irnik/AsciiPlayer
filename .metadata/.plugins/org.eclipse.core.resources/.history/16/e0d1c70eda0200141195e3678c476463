@@ -1,0 +1,13 @@
+package Player;
+
+import java.io.File;
+
+import javax.imageio.ImageIO;
+
+public class VideoPlayer extends SequencePlayer {
+
+	VideoPlayer(File file)
+	{
+		super.images = ImageIO.read(file);
+	}
+}

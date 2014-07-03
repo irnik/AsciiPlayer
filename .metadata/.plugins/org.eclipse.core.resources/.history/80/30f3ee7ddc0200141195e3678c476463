@@ -1,0 +1,13 @@
+package Player;
+
+import java.io.File;
+
+import javax.imageio.ImageIO;
+
+public class GifPlayer extends SequencePlayer {
+
+	GifPlayer(File file)
+	{
+		super.images = ImageIO.read(file);
+	}
+}

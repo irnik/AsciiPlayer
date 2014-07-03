@@ -1,0 +1,15 @@
+package Player;
+import java.awt.image.BufferedImage;
+import java.util.ArrayList;
+
+public class VideoPlayer extends FilePlayer{
+	ArrayList<BufferedImage> images;
+	VideoPlayer(ArrayList<BufferedImage> images)
+	{
+		
+	}
+	public void play()
+	{
+		return;
+	}
+}
